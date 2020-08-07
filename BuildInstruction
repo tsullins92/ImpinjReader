@@ -1,0 +1,5 @@
+To build an exe in Netbeans with no requirement for a libs folder to be present, do the following:
+1. Clean and build project
+2. In files, right click on build.xml -> Run Target -> Other Targets -> package-for-store
+3. Run Launch4J program and load l4j_config_store
+4. Click the cog button to wrap the executable
